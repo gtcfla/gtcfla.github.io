@@ -1485,25 +1485,25 @@ translateInitilization();
 
 
 
-   
-   
-   
-   
-   
-   
-   
-       
-           var gitment = new Gitment({
-              id: document.location.href, 
-               owner: 'gtcfla',
-               repo: 'gtcfla.github.io',
-               oauth: {
-               client_id: '5d95965d273c08e7a4f9',
-               client_secret: 'ae4933a54c8579c86e7e4e2f8be4678228f9527a',
-           }});
-           gitment.render('gitment-container');
-       
-   
+    
+    
+    
+    
+    <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+    <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+    
+        <script type="text/javascript">
+            var gitment = new Gitment({
+                id: document.location.href, 
+                owner: 'gtcfla',
+                repo: 'gtcfla.github.io',
+                oauth: {
+                    client_id: '5d95965d273c08e7a4f9',
+                    client_secret: 'ae4933a54c8579c86e7e4e2f8be4678228f9527a',
+                }});
+            gitment.render('gitment-container');
+        </script>
+    
 
 
   
